@@ -4,7 +4,7 @@ import {NewsDataProps} from "../data/NewsData";
 const NewsCard = ({id,imgUrl,title,description,category}: NewsDataProps) => {
     return (
         <div key={id} className='p-4 md:w-1/3'>
-            <div className='h-full border-2 border-gray-300 rounded-lg overflow-hidden'>
+            <div className='h-full border-2 border-gray-800 rounded-lg overflow-hidden'>
                 <img
                     className='lg:h-72 md:h-64 w-full object-cover object-center'
                     src={imgUrl}
