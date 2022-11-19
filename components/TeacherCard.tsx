@@ -14,7 +14,7 @@ const TeacherCard = ({id,fullName,position,imgUrl}: TeacherDataProps) => {
                     <h2 className='title-font font-medium'>
                         {fullName}
                     </h2>
-                    <p className='text-gray-700'>
+                    <p className='text-gray-500'>
                         {position}
                     </p>
                 </div>
